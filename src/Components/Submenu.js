@@ -11,6 +11,7 @@ const Submenu = () => {
   const container = useRef(null);
   const [columns, setColumns] = useState("col-2");
   useEffect(() => {
+    setColumns("col-2");
     const submenu = container.current;
     const { centre, bottom } = location;
     submenu.style.left = `${centre}px`;
@@ -28,7 +29,7 @@ const Submenu = () => {
       ref={container}
     >
       <h4>{page}</h4>
-      <div className={`submenu-centre ${columns}`}>
+      <div className={`submenu-center ${columns}`}>
         {links.map((link, index) => {
           const { label, icon, url } = link;
           return (
