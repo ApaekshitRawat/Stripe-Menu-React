@@ -28,18 +28,15 @@ const Navbar = () => {
         <ul className="nav-links">
           <li>
             <button className="link-btn" onMouseOver={displaySubmenu}>
-              {" "}
               products
             </button>
           </li>
           <li className="link-btn">
             <button className="link-btn" onMouseOver={displaySubmenu}>
-              {" "}
               developers
             </button>
           </li>
           <button className="link-btn" onMouseOver={displaySubmenu}>
-            {" "}
             company
           </button>
           <li className="link-btn"></li>
