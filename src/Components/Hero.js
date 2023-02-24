@@ -7,12 +7,13 @@ const Hero = () => {
     <section className="hero" onMouseOver={closeSubmenu}>
       <div className="hero-center">
         <article className="hero-info">
-          <h1>Payments Infrastructure for the Interner</h1>
+          <h1>Navbar Functionality which Looks good</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-            saepe veniam similique voluptatem dolores officia odit delectus
-            incidunt. Consequuntur officiis sed, magnam quos hic eligendi sequi.
-            Id voluptatem at dolorum?
+            So here I tried to create a cool navbar functionality where you will
+            triger the navbar content when hovering over them. USed data from
+            data.js and the menu width and height is kept dynamic , meaning it
+            will change according to the amount of data present in the data
+            file.
           </p>
           <button className="btn">Start</button>
         </article>
